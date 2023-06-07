@@ -6,7 +6,7 @@ import ItemListContainer from '../components/ItemListContainer/ItemListContainer
 const home = () => {
   return (
     <div className="App">
-    <ItemListContainer saludo={"Bienvenidos! Por favor seleccione un servicio"}/>
+        <ItemListContainer greeting={"Bienvenidos! Por favor seleccione un servicio"}/>
 
    </div>
   )

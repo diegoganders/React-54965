@@ -29,7 +29,7 @@ const ItemListContainer = ({greeting}) => {
     }, [categoryId])
     
     if(loading) {
-        return <h1>Loading Services...</h1>
+        return <h1>Cargando servicios...</h1>
     }
 
     if(servicesState && servicesState.length === 0) {

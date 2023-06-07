@@ -11,11 +11,11 @@ const MainRouter = () => {
     <BrowserRouter>
           <NavBar />
       <Routes>
-        <Route exact path="*" element={<Home />} />
-        <Route path="/products" element={<Products />} />
+        <Route exact path='*' element={<Home />} />
         <Route path= '/' element={<ItemListContainer greeting={"Bienvenidos! Por favor seleccione un servicio"}/>} />
-        <Route path= '/category/:categoryId' element={<ItemListContainer greeting={"Services by category"}/>} />
+        <Route path= '/category/:categoryId' element={<ItemListContainer greeting={"Servicios por categoría"}/>} />
         <Route path= '/item/:itemId' element={<ItemDetailContainer />} />
+        <Route path='/products' element={<Products />} />
 
       </Routes>
     </BrowserRouter>)

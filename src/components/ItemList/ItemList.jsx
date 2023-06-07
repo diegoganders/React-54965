@@ -1,9 +1,9 @@
-import './ItemList'
+import './ItemList.css'
 import Item from "../Item/Item"
 
 const ItemList = ({ services }) => {
     return (
-        <div style={{ display: 'flex'}}>
+        <div className='itemList-container'>
                 {
                     services.map(service => {
                         return <Item key={service.id} {...service} />
