@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from '../pages/Home';
 import NavBar from '../components/NavBar/NavBar';
 import Products from '../pages/Products';
-import ItemDetailContainer from '../pages/ItemDetailContainer';
+import ItemDetailContainer from '../components/ItemDetailContainer/ItemDetailContainer';
 import ItemListContainer from '../components/ItemListContainer/ItemListContainer';
 const MainRouter = () => {
   return (
