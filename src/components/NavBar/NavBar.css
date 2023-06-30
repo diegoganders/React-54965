@@ -1,3 +1,5 @@
+
+
 .NavBar {
     font-family: "Montserrat", sans-serif;
     display: flex;
@@ -11,7 +13,13 @@
     z-index: 300;
 }
 
+
 .Brand {
-    font-size: xx-large;
+    letter-spacing: 2px;
+    font-weight: bolder;
     color:black;
+}
+
+.button-nav{
+    padding: 2% 0%;
 }
